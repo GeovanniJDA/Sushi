@@ -6,7 +6,31 @@
 }
 
 .trending__discover{
+  position: absolute;
+  top: 44%;
+  left: 44%;
+  z-index: 1;
 
+  width: 10rem;
+  height: 10rem;
+
+  border-radius: 100%;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.trending__discover p {
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: var(--plus-jakarta-sans);
+
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .trending-sushi, .trending-drinks{

@@ -8,7 +8,7 @@
   display: flex;
 
   position: relative;
-  padding: 1.25rem;
+  padding: .6rem;
 }
 
 .header__logo-overlay{
@@ -59,7 +59,7 @@
   object-fit: contain;
 }
 
-.header__menu-mobile {
+.hearder__menu-mobile {
   display: none;
   gap: 20px;
 
